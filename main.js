@@ -12,7 +12,6 @@ let img = [
 'https://ga-instruction.s3.amazonaws.com/assets/front-end-web-development/fewd-conditionals-images/star-wars-solo.jpeg',
 'https://ga-instruction.s3.amazonaws.com/assets/front-end-web-development/fewd-conditionals-images/stranger-things.jpg'
 ];
-
 for (let index=0; index < img.length; index++ ){
     channels[index].addEventListener("click", () => {
         screenTv.src=img[index]
